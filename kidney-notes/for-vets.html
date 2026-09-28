@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kidney Notes for Cats — for veterinary teams</title>
+<meta name="description" content="A one-page overview of Kidney Notes for Cats for veterinary teams: a free daily care log owners of CKD cats can bring to rechecks.">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+  :root{--text:#4B4639;--muted:#8C8474;--line:#F0EBDD;--soft:#FBF6EA;--accent:#E8A11F;--dark:#4A3B12}
+  body{font-family:-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text);background:#fff;line-height:1.55}
+  .page{max-width:794px;margin:0 auto;padding:40px 44px}
+  header{display:flex;align-items:center;gap:16px;border-bottom:2px solid var(--line);padding-bottom:18px}
+  .icon{width:58px;height:58px;border-radius:14px;background:linear-gradient(160deg,#F7CE5E,#F5BE3D);display:flex;align-items:center;justify-content:center;flex:none}
+  .kicker{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+  h1{font-size:25px;line-height:1.2;color:var(--dark)}
+  .lead{margin:18px 0 6px;font-size:15.5px}
+  .grid{display:grid;grid-template-columns:1fr 210px;gap:26px;margin-top:14px}
+  h2{font-size:14px;font-weight:800;color:var(--dark);margin:16px 0 6px;text-transform:uppercase;letter-spacing:.04em}
+  ul{padding-left:18px;font-size:13.5px}
+  li{margin:3px 0}
+  .shots{display:flex;flex-direction:column;gap:12px}
+  .shots img{width:100%;border-radius:16px;border:1px solid var(--line)}
+  .not{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-top:16px;font-size:13px}
+  .not strong{color:var(--dark)}
+  footer{display:flex;align-items:center;gap:18px;margin-top:20px;padding-top:16px;border-top:2px solid var(--line)}
+  footer img{width:104px;height:104px;flex:none}
+  footer p{font-size:13px}
+  footer .url{font-weight:800;color:var(--dark);font-size:14px}
+  @media (max-width:640px){.grid{grid-template-columns:1fr}.shots{flex-direction:row}.shots img{width:48%}}
+  @media print{.page{padding:28px 34px}}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="icon"><svg width="38" height="38" viewBox="0 0 100 100"><g fill="none" stroke="#4A3B12" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 44 L18 20 L36 32 Q47 27 58 32 L76 20 L72 44 Q80 54 78 65 Q74 86 47 88 Q20 86 16 65 Q14 54 22 44 Z"/></g><g fill="none" stroke="#4A3B12" stroke-width="5" stroke-linecap="round"><path d="M33 60 Q37 64 41 60"/><path d="M53 60 Q57 64 61 60"/></g></svg></div>
+    <div>
+      <div class="kicker">For veterinary teams</div>
+      <h1>Kidney Notes for Cats — a daily care log your CKD clients can bring to rechecks</h1>
+    </div>
+  </header>
+
+  <p class="lead">Owners of cats with chronic kidney disease manage fluids, medications and appetite at home every day, but recalling the last few weeks in the exam room is hard. Kidney Notes helps them keep a simple daily record and arrive with a clean summary instead of memories.</p>
+
+  <div class="grid">
+    <div>
+      <h2>What owners log (one tap, under 30 seconds a day)</h2>
+      <ul>
+        <li>Sub-Q fluids: volume presets and a suggested injection site for rotation</li>
+        <li>Medications: check-off, daily reminders and low-stock alerts</li>
+        <li>Weight, appetite (4 levels), water intake, vomiting, urine and stool counts, free notes</li>
+        <li>Lab values from your reports: CREA, BUN, SDMA, P, Ca, plus photos of the lab sheets</li>
+      </ul>
+
+      <h2>What you see</h2>
+      <ul>
+        <li>A 30- or 90-day PDF: a day-by-day table of the home log with lab trends</li>
+        <li>Days with vomiting or low appetite are highlighted, so changes are easy to spot</li>
+        <li>Owners can show it on their phone, email it, or print it before the visit</li>
+      </ul>
+
+      <h2>For your clients</h2>
+      <ul>
+        <li>All daily logging is free, with no ads and no account</li>
+        <li>Data stays on the owner's phone; the developer receives no health data</li>
+        <li>Optional premium (multiple cats, full history, PDF export) is a subscription the owner chooses</li>
+        <li>Available on iPhone (US, UK, Canada, Australia, New Zealand, Ireland and more); Android coming</li>
+      </ul>
+
+      <div class="not"><strong>What it is not.</strong> Kidney Notes is a record-keeping tool. It does not diagnose, stage, interpret lab values, set targets or recommend treatment, and it reminds owners to follow their veterinarian's instructions and contact the clinic about any concern.</div>
+    </div>
+    <div class="shots">
+      <img src="img/home.png" alt="Home screen: one-tap logging for fluids, meds and weight">
+      <img src="img/labs.png" alt="Kidney value trends: CREA, BUN, SDMA, P and Ca">
+    </div>
+  </div>
+
+  <footer>
+    <img src="qr.svg" alt="QR code to pocket-tools-jp.github.io/kidney-notes">
+    <div>
+      <p class="url">pocket-tools-jp.github.io/kidney-notes</p>
+      <p>Scan to see the app and download links. Made by an indie developer in Japan and shaped by feedback from cat owners and veterinary professionals. We'd love to hear what would make it more useful in your practice.</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
